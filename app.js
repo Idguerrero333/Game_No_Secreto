@@ -18,8 +18,8 @@ function asignarTextoElemento(elemento, texto){
     return;
 }
 //funcion           (elemento, texto)
-asignarTextoElemento('h1', 'Juego del número secreto');
-asignarTextoElemento('p', `Indica un numero del 1 al ${limiteNsecreto}`);
+//asignarTextoElemento('h1', 'Juego del número secreto');
+//asignarTextoElemento('p', `Indica un numero del 1 al ${limiteNsecreto}`);
 
 function verificarIntento() {
     //                                      HTML_inputId().valor
@@ -78,7 +78,7 @@ function generaNumeroSecreto(){
 
 function condicionesIniciales() {
     asignarTextoElemento('h1', 'Juego del número secreto');
-    asignarTextoElemento('h2', 'Para Angela, TE AMO. IDG333')
+    asignarTextoElemento('h2', 'Dedicado para Angela, TE AMO. IDG333')
     asignarTextoElemento('p', `Indica el número del 1 al ${limiteNsecreto}`);
     numeroSecreto = generaNumeroSecreto();
     intentos = 1;
